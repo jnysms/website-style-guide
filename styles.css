@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+Color Palette: 
+Fuchsia Pink #FC2281 
+Burgundy #900830 
+Jet Black #100E0F 
+Peachy Cream #FFC896 
+Cotton Candy #FFAEF1
+https://www.pinterest.com/pin/241505598762086391/
+*/
+
+body {}
+
+header {
+    background-color: none;
+    border: none;
+    width: 100%;
+    margin: 5px 0px;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Courgette";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: left;
+    font-family: "Courgette";
+    font-style: bold;
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+p {
+    text-align: center;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+section#colors {
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+section#fonts {
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding-bottom: 20px;
+    border: none;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    color: black;
+    border: none;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+li#fuchsia {
+    list-style-type: none;
+    /* Remove bullets */
+    background-color: #fc2281;
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 55px 0px;
+    margin: 5px 0px;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+li#burgundy {
+    list-style-type: none;
+    /* Remove bullets */
+    background-color: #900830;
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 55px 0px;
+    margin: 5px 0px;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+li#jet-black {
+    list-style-type: none;
+    /* Remove bullets */
+    background-color: #100e0f;
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 55px 0px;
+    margin: 5px 0px;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+li#peachy-cream {
+    list-style-type: none;
+    /* Remove bullets */
+    background-color: #ffc896;
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 55px 0px;
+    margin: 5px 0px;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+li#cotton-candy {
+    list-style-type: none;
+    /* Remove bullets */
+    background-color: #ffaef1;
+    display: inline-block;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 55px 0px;
+    margin: 5px 0px;
+    font-family: "Noto Sans Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+p#noto {
+    background-color: none;
+    font-family: "Noto Sans Mono", monospace;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+p#noto-regular {
+    background-color: none;
+    font-family: "Noto Sans Mono", monospace;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+p#noto-italic {
+    background-color: none;
+    font-family: "Noto Sans Mono", monospace;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+p#noto-bold {
+    background-color: none;
+    font-family: "Noto Sans Mono", monospace;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#courgette {
+    background-color: none;
+    font-family: "Courgette";
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+p#courgette-regular {
+    background-color: none;
+    font-family: "Courgette";
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+p#courgette-italic {
+    background-color: none;
+    font-family: "Courgette";
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+p#courgette-bold {
+    background-color: none;
+    font-family: "Courgette";
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#heading {
+    font-size: 25px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: bold;
+    text-align: left;
+}
+
+p#subheading {
+    font-size: 20px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 500;
+    text-align: left;
+}
+
+p#paragraph {
+    font-size: 15px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 400;
+    text-align: left;
+}
+
+div#text-box {
+    margin-left: 550px;
+}
+
+footer {
+    background-color: none;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    font-family: "Noto Sans Mono", monospace;
+}
